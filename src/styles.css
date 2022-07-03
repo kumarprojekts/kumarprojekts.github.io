@@ -181,7 +181,9 @@ a{
 {
     .hamburger{
         display: block;
-        border: 0;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
         background-color: transparent;
         color: white;
         font-size: 30px;
@@ -200,13 +202,20 @@ a{
     }
 
     nav{
+        position: relative;
         display: flex;
-        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        float: none;
         background-color: #2b2c38;
     }
 
     .logo{
-        display: none;
+        width: 100%;
+        height: auto;
+        max-width: 400px;
     }
 
 }
