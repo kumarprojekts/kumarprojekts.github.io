@@ -11,7 +11,7 @@ section {
     background-color: #1c1d25;
     height: 100vh;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 footer{
@@ -31,7 +31,7 @@ ul{
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 li{
@@ -97,7 +97,7 @@ p{
 }
 
 .logo{
-    height: 70px;
+    height: 60px;
     margin: 25px;
 }
 
