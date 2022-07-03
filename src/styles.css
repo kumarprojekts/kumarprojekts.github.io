@@ -129,20 +129,20 @@ p{
     align-items: center;
 }
 
-.project-card{
+.project-card {
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
 }
 
-.project-container{
+.project-container {
     display: flex;
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px){
-    .project-container{
+@media only screen and (max-width: 1000px) {
+    .project-container {
         display: flex;
         flex-wrap: wrap;
     }
